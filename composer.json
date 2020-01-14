@@ -1,0 +1,31 @@
+{
+    "name": "onframework/core",
+    "description": "Micro Framework para desenvolvimento PHP",
+    "version": "1.0",
+    "type": "ornframework-plugin",
+    "authors": [
+        {
+            "name": "Tayron Miranda",
+            "email": "dev@tayron.com.br"
+        }
+    ],    
+    "require": {
+        "php": ">=5.3",
+        "cakephp/orm" : "3.3.4",
+        "monolog/monolog" : "1.18.1",
+        "tayron/session" : "1.0.0",
+        "tayron/template" : "1.0.0",
+        "tayron/error-handler" : "1.0.0",
+        "tayron/request" : "1.0.0",
+        "tayron/response" : "1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.3"
+    },    
+    "autoload": {
+        "psr-4": {
+            "Core\\": "\\"
+        }
+    }      
+
+}
